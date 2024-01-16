@@ -52,8 +52,21 @@
 }
 
 .eslogan-difarlib {
-    font-family: Zapfino, 'Apple Chancery', 'ITC Zapf Chancery', cursive;
+    font-family: Zapfino, "Apple Chancery", "ITC Zapf Chancery", cursive;
     font-size: 60px;
     font-style: italic;
     font-weight: bold;
+}
+
+footer {
+    background-color: #dc2226;
+}
+
+.footer-text,
+.footer-nav {
+    color: #f2f2f2;
+}
+
+.footer-nav:hover {
+    color: #4c8133;
 }
