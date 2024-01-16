@@ -1,6 +1,38 @@
+@font-face {
+    font-family: Impacts;
+    src: url(../fonts/unicode.impact.ttf);
+}
+
 .red-difarlib {
     color: #dc2226;
-    font-family: Impact, "Segoe UI", Roboto;
-    font-size: 100px;
+    font-family: Impact, Impacts, "Arial Black", "Arial", sans-serif;
+    font-size: 40px;
     font-style: italic;
+}
+
+.navbar-toggler {
+    background-color: #dc2226;
+}
+
+.nav-active,
+.nav-link {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-active {
+    color: #dc2226;
+}
+
+.nav-active:hover,
+.red-difarlib:hover {
+    color: #4c8133;
+}
+
+.nav-link {
+    color: #4c8133;
+}
+
+.nav-link:hover {
+    color: #dc2226;
 }
