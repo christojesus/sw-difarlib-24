@@ -34,21 +34,21 @@
     font-weight: 500;
 }
 
+.nav-link {
+    color: #4c8133;
+}
+
 .nav-active {
+    color: #dc2226;
+}
+
+.nav-link:hover {
     color: #dc2226;
 }
 
 .nav-active:hover,
 .red-difarlib:hover {
     color: #4c8133;
-}
-
-.nav-link {
-    color: #4c8133;
-}
-
-.nav-link:hover {
-    color: #dc2226;
 }
 
 .eslogan-difarlib {
