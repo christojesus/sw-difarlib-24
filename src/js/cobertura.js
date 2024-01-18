@@ -1,0 +1,29 @@
+const laLibertad = "Trujillo, Viru, Otuzco, Pacasmayo, Chepén, Ascope, Santiago de Chuco, Huamachuco."
+const ancash = "Chimbote, Santa, Casma, Huaraz, Caraz, Carhuaz."
+const lambayeque = "Chiclayo, Lambayeque, Ferreñafe."
+const amazonas = "Bagua Grande, Bagua Chica, Chachapoyas, Pedro Ruíz."
+const cajamarca = "Cajamarca, Celendín, Cajabamba, Chota, Cutervo, Jaen, San Ignacio."
+const piuraTumbes = "Piura, Sullana, Chulucanas, Catacaos, Paita, Tambogrande, Mancora, Tumbes, Zarumilla, Aguas Verdes."
+const norteChico = "Huacho, Barranca, Chancay, Huaral, Paramonga, Pativilca, Sayan, Supe, Huarmey."
+const sanMartin = "Tarapoto, Moyobamba, Rioja, Nueva Cajamarca, Bellavista, Juanjui."
+const loreto = "Yurimaguas."
+
+const elementLaLibertad = document.getElementById("laLibertad")
+const elementAncash = document.getElementById("ancash")
+const elementLambayeque = document.getElementById("lambayeque")
+const elementAmazonas = document.getElementById("amazonas")
+const elementCajamarca = document.getElementById("cajamarca")
+const elementPiuraTumbes = document.getElementById("piuraTumbes")
+const elementNorteChico = document.getElementById("norteChico")
+const elementSanMartin = document.getElementById("sanMartin")
+const elementLoreto = document.getElementById("loreto")
+
+elementLaLibertad.innerText = laLibertad
+elementAncash.innerText = ancash
+elementLambayeque.innerText = lambayeque
+elementAmazonas.innerText = amazonas
+elementCajamarca.innerText = cajamarca
+elementPiuraTumbes.innerText = piuraTumbes
+elementNorteChico.innerText = norteChico
+elementSanMartin.innerText = sanMartin
+elementLoreto.innerText = loreto
