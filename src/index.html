@@ -68,22 +68,42 @@
             </div>
         </nav>
     </header>
-    <main class="container my-md-5 my-3">
+    <main class="container-flex mt-3">
         <div class="row">
             <div class="col-md-12">
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-6 d-flex align-items-center">
-                            <div class="card-body text-center">
-                                <h2 class="card-title green-difarlib">DISTRIBUIDORA FARMACÉUTICA LA LIBERTAD</h2>
-                                <p class="card-text eslogan-difarlib">Entregas confiables</p>
-                            </div>
+                <h2 class="green-difarlib text-center">DISTRIBUIDORA FARMACÉUTICA LA LIBERTAD SAC</h2>
+                <p class="eslogan-difarlib text-center">Entregas confiables</p>
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                    data-bs-theme="dark">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img id="carousel-image-1" class="d-block w-100" alt="DIFARLIB">
                         </div>
-                        <div class="col-md-6 text-center ">
-                            <img src="./img/logo-difarlib-1.png" class="img-fluid rounded-end my-3" alt="Logo DIFARLIB"
-                                width="75%">
+                        <div class="carousel-item">
+                            <img id="carousel-image-2" class="d-block w-100" alt="DIFARLIB">
+                        </div>
+                        <div class="carousel-item">
+                            <img id="carousel-image-3" class="d-block w-100" alt="DIFARLIB">
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -112,6 +132,7 @@
         </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
