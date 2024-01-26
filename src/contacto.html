@@ -69,7 +69,7 @@
             </div>
         </nav>
     </header>
-    <main class="container my-3">
+    <main class="container my-md-5 my-3">
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-center">Contacto</h3>
@@ -89,13 +89,18 @@
                             <p class="card-text" id="fax">DIFARLIB</p>
                             <h5 class="card-title">Dirección:</h5>
                             <p class="card-text" id="direccion">DIFARLIB</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1660.687546042807!2d-79.04936905596631!3d-8.12154125906809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d09500c26ab%3A0x7a9192ba6cd8159b!2sDIFARLIB%20S.R.L.!5e0!3m2!1ses!2spe!4v1706290255184!5m2!1ses!2spe"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <p class="card-text text-center">
-                                Estamos ansiosos por recibir sus comentarios, preguntas o consultas. ¡Esperamos poder
-                                atenderle pronto!
+                                Utilice nuestro formulario de contacto en línea para dejarnos su mensaje. Le pedimos que
+                                proporcione la información necesaria para poder responder a sus preguntas o comentarios
+                                de la manera más precisa posible.
                             </p>
                             <form action="php/mensajeDifarlib.php" method="post">
                                 <div class="form-floating mb-3">
@@ -107,6 +112,11 @@
                                     <input type="email" class="form-control" id="email" name="email" minlength="6"
                                         maxlength="40" placeholder="correo@electronico.com" required>
                                     <label for="email">Correo electrónico</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="number" class="form-control" id="phone" name="phone" min="111111"
+                                        max="999999999" placeholder="(+51)" required>
+                                    <label for="phone">Teléfono / Celular</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <select class="form-select" id="subject" name="subject">
@@ -127,6 +137,11 @@
                                     <input class="btn btn-dark" type="submit" id="submit" value="Enviar mensaje">
                                 </div>
                             </form>
+                            <p class="card-text text-center mt-3">
+                                Estamos ansiosos por recibir sus comentarios, preguntas o consultas. En DIFARLIB,
+                                nuestro objetivo es proporcionar un servicio confiable y estar siempre a disposición
+                                para satisfacer sus necesidades. ¡Esperamos poder atenderle pronto!
+                            </p>
                         </div>
                     </div>
                 </div>
