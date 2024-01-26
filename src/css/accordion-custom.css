@@ -4,3 +4,12 @@
 	--bs-accordion-btn-bg: hsl(90, 50%, 70%);
 	--bs-accordion-btn-color: #0d0d0d;
 }
+
+.accordion {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease;
+}
+
+.accordion:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
