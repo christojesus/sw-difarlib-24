@@ -7,6 +7,7 @@ if (isset($_POST['email'])) {
     if (
         !isset($_POST['name']) ||
         !isset($_POST['email']) ||
+        !isset($_POST['phone']) ||
         !isset($_POST['subject']) ||
         !isset($_POST['message'])
     ) {
@@ -17,6 +18,7 @@ if (isset($_POST['email'])) {
     $email_message = "Detalles del formulario de contacto:\n\n";
     $email_message .= "Nombres y apellidos: " . $_POST['name'] . "\n";
     $email_message .= "Correo electrónico: " . $_POST['email'] . "\n";
+    $email_message .= "Teléfono / Celular: " . $_POST['phone'] . "\n";
     $email_message .= "Asunto: " . $_POST['subject'] . "\n";
     $email_message .= "Mensaje: " . $_POST['message'] . "\n\n";
     // Envio
