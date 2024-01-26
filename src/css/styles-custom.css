@@ -48,3 +48,16 @@ body {
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+#socios .list-group-item,
+#farma .list-group-item,
+#consumo .list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+#socios .list-group-item:hover,
+#farma .list-group-item:hover,
+#consumo .list-group-item:hover {
+    background-color: #dc2226;
+    color: #fff;
+}
